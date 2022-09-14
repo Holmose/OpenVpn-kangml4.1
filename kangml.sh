@@ -466,7 +466,7 @@ wget -q 下崽源/centos/apktool.jar > /dev/null 2>&1
 java -jar apktool.jar d kangml.apk > /dev/null 2>&1
 rm -rf kangml.apk > /dev/null 2>&1
 sed -i 's/Kangml/'$AppName'/g' /APP/kangml/res/values/strings.xml > /dev/null 2>&1
-sed -i 's/118.195.174.185:1234/'$IP:1234'/g' /APP/kangml/res/values/strings.xml > /dev/null 2>&1
+sed -i 's/82.156.8.26:1234/'$IP:1234'/g' /APP/kangml/res/values/strings.xml > /dev/null 2>&1
 sed -i 's/dailiid/'0'/g' /APP/kangml/res/values/strings.xml > /dev/null 2>&1
 java -jar apktool.jar b kangml > /dev/null 2>&1
 wget -q 下崽源/centos/signer.zip > /dev/null 2>&1
